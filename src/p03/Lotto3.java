@@ -12,7 +12,7 @@ public class Lotto3 {
 		
 		int Correct = 0; //맞춘개수
 		
-		boolean condition = true; //입력을 잘못한경우 다시물어보기
+		/*boolean condition = true; //입력을 잘못한경우 다시물어보기/*/
 		
 		System.out.println("번호를 입력해 주세요"); //번호입력
 		String input = s.nextLine(); //입력하기
@@ -23,7 +23,7 @@ public class Lotto3 {
 		
 		System.out.println("내가 입력한 번호"); //내가 입력한 번호 보여주기
 	
-	
+		
 		
 		for(int i=0; i<lottonum.length; i++) {
 			lottonum[i] = r.nextInt(45)+1; // 1~45 랜덤생성
