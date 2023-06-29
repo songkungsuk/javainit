@@ -11,7 +11,7 @@ public class twoDimensionalArray {
 		System.out.println();
 		for (int i = 0; i < numArray.length; i++) {
 			for(int j=0; j<numArray[i].length; j++) {
-				numArray[i][j] = (i*3) + (j) + 1;
+				numArray[i][j] = (i*3) + j + 1;
 				
 			}
 		}
