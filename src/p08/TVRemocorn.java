@@ -12,4 +12,10 @@ public class TVRemocorn extends Remocon implements Remote {
 	public void off() {
 		System.out.println("TV 끄기");
 	}
+	public void chup() {
+		System.out.println("채널을 올립니다");
+	}
+	public void chdown() {
+		System.out.println("채널을 내립니다");
+	}
 }
