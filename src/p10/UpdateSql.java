@@ -10,7 +10,6 @@ public class UpdateSql {
 	public static void printtext(int num) {
 		String one = "ID";
 		String two = "NAME";
-		
 		switch (num) {
 		case 1:
 			System.out.println("자신의 "+ one +"를 입력해주세요.");
