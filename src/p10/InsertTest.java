@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class InsertTest {
 	public static void main(String[] args) {
-		// 필요한것
+		// 필요한것 Class.forName("org.mariadb.jdbc.Driver");
 		// 전화기 - 네트워크 유형
 		// 유심칩 - 라이브러리 - MariaDB JDBC libs
 		// 전화번호 - IP주소
