@@ -7,7 +7,7 @@ public class AirconRemoconExec extends Remocon{
 		Remote[] re = new Remote[2];
 		re[0] = new AirConditioner();
 		re[1] = new TVRemocorn();
-		
+
 		for(int i=0; i< re.length; i++) {
 			re[i].on();
 			

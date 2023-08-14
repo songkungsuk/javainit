@@ -23,5 +23,6 @@ public class Overriding {
 		String str = c1.toString();
 		System.out.println(c1.name);
 		System.out.println(c1.price);
+		System.out.println(oj.toString());
 	}
 }

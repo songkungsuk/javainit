@@ -13,7 +13,7 @@ public class Lotto3 {
 		int Correct = 0; //맞춘개수
 		
 		/*boolean condition = true; //입력을 잘못한경우 다시물어보기/*/
-		
+	
 		System.out.println("번호를 입력해 주세요"); //번호입력
 		String input = s.nextLine(); //입력하기
 		String lottoStr = input; // 스플릿으로 분리할 것
@@ -29,7 +29,7 @@ public class Lotto3 {
 			lottonum[i] = r.nextInt(45)+1; // 1~45 랜덤생성
 			
 			for(int j=0; j<i; j++) {
-				if(strs[i].equals(Integer.toString(lottonum[i]))) { //중복제거
+				if(strs[j].equals(Integer.toString(lottonum[i]))) { //중복제거
 					i--;
 				}
 			}
